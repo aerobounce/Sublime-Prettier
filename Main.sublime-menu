@@ -1,0 +1,31 @@
+[
+    {
+        "id": "preferences",
+        "children": [
+            {
+                "id": "package-settings",
+                "caption": "Package Settings",
+                "children": [
+                    {
+                        "caption": "Prettier",
+                        "children": [
+                            {
+                                "caption": "Settings",
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/Prettier/Prettier.sublime-settings",
+                                    "default": "{\n    \"fotmat_on_save\": true\n}"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings",
+                                "command": "edit_settings",
+                                "args": { "base_file": "${packages}/Prettier/Default ($platform).sublime-keymap" }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

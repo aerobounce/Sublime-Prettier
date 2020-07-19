@@ -1,0 +1,15 @@
+[
+    {
+        "caption": "Prettier: Format",
+        "command": "prettier"
+    },
+    {
+        "caption": "Prettier: Format Selection",
+        "command": "prettier_selection"
+    },
+    {
+        "caption": "Prettier: Settings",
+        "command": "edit_settings",
+        "args": { "base_file": "${packages}/Prettier/Prettier.sublime-settings" }
+    }
+]
